@@ -32,7 +32,7 @@ html {
 
 body {
     font-family: "Poppins", sans-serif;
-    font-size: 8rem;
+    font-size: 2rem;
     font-weight: bolder;
     background-color: #fff;
     color: rgb(13, 13, 121);
@@ -589,7 +589,7 @@ p {
 }
 
 .contact .formRight {
-    background-color: rgb(255, 250, 205, 0.8);
+    background-color: #D1F2EB;
     height: 50%;
     width: 50%;
     display: flex;
