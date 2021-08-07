@@ -32,10 +32,10 @@ html {
 
 body {
     font-family: "Poppins", sans-serif;
-    font-size: 1.6rem;
-    font-weight: 400;
+    font-size: 8rem;
+    font-weight: bolder;
     background-color: #fff;
-    color: #5e0c1d;
+    color: rgb(13, 13, 121);
     position: relative;
     z-index: 1;
 }
@@ -106,7 +106,8 @@ li {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(160, 12, 12);
+    background-color: #056066
+;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     z-index: 999;
 }
@@ -182,7 +183,8 @@ li {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: rgb(160, 12, 12);
+        background-color: #6ec7cd
+;
         padding: 1rem 1.6rem;
     }
 
@@ -217,7 +219,8 @@ li {
     }
 
     .nav.fix-nav .nav-link {
-        color: rgb(160, 12, 12);
+        color: #6ec7cd
+;
     }
 
     .nav-list {
@@ -272,6 +275,10 @@ li {
     font-size: 60px;
 }
 
+.hero-row p, .right.hero-row p{
+    color: rgb(73, 73, 75);
+}
+
 .bannerOferta .hero-content {
     width: 30%;
     height: 80%;
@@ -287,15 +294,6 @@ li {
 
 .hero-content .discount {
     color: #ffffff;
-}
-
-.hero-content h1 span {
-    color: #060e7a;
-    font-size: 6rem;
-    font-weight: 700;
-    display: block;
-    line-height: 1;
-    text-shadow: 3px 3px 0 #f1f1f1, 4px 4px 0 #f1f1f1;
 }
 
 a.btn {
@@ -499,14 +497,20 @@ a.btn {
 }
 
 /* ========= Footer ======== */
-.footer {
+.footerContainer {
     color: var(--white);
     display: flex;
     background-color: var(--grey);
+    width: 100%;
     height: 13%;
     padding: 0px;
     justify-content: center;
     align-items: center; 
+}
+
+.footerContainer .footer {
+    width: 80%;
+
 }
 
 .datos{
@@ -521,6 +525,14 @@ a.btn {
     width: 30%;
     font-weight: 1rem;
     margin-top: 3rem;
+}
+
+.datos p {
+    font-size: 1.7rem;
+}
+
+.remark {
+    color: #6ec7cd;
 }
 
 .footer ul {
@@ -563,10 +575,30 @@ p {
 }
 
 .contact {
-    display: block;
-    margin: 2px;
+    background-color: #6ec7cd
+    ;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items:  center;
     font-size: 16px;
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.contact .formRight {
+    background-color: rgb(255, 250, 205, 0.8);
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.final {
+    font-size: 1.5rem;
 }
